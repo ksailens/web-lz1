@@ -8,17 +8,17 @@ html, body, .wrapper {
 body {
     display: block;
     background: #ecf0f1;
-
+    background: url("../img/fon.jpg") repeat;
 }
 .wrapper {
-    width: 750px;
+    width: 900px;
     margin: 0 auto;
 
 }
 footer {
     height: 80px;
     margin-top: -80px;
-    background: #8bb2f0;
+    background: #afd6f5;
     clear: both;
 }
 
@@ -390,3 +390,13 @@ section h3  {
     margin: 3px 3px 0 0;
 }
 
+/*автобиография*/
+
+.autobiography p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
